@@ -1,0 +1,142 @@
+/* 기본 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #292524;
+    background-color: #faf8f5;
+}
+
+a {
+    color: #292524;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* 헤더 */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 5%;
+    background-color: deepskyblue;
+    border-bottom: 1px solid #e5ded6;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    gap: 28px;
+}
+
+main {
+    width: 90%;
+    margin: 32px auto;
+}
+
+
+/* 배너 */
+#banner {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #ead9c8, #f5eadd);
+}
+
+#banner h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#banner p {
+    margin: 16px 0 24px;
+}
+
+#banner a {
+    display: inline-block;
+    padding: 12px 28px;
+    color: white;
+    background-color: #43382f;
+}
+
+
+/* 상품 목록 */
+#products {
+    margin: 40px 0;
+}
+
+#products h3 {
+    margin: 0 0 24px;
+    font-size: 24px;
+}
+
+#products ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+#products li {
+    position: relative;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #e5ded6;
+}
+
+#products img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#products strong {
+    display: block;
+    margin: 16px 0 8px;
+}
+
+
+/* 뱃지 */
+.badge {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    padding: 6px 10px;
+    color: white;
+    background-color: #9b4d36;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* 푸터 */
+footer {
+    padding: 28px 5%;
+    background-color: #eee7df;
+}
+
+footer dl {
+    margin: 20px 0 0;
+}
+
+footer dt {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+footer dd {
+    margin: 6px 0 0;
+}
